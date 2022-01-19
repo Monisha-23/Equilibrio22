@@ -66,6 +66,7 @@ margin-top: 5%;
 #Sponsors img{
     width:225px;
     display: block;
+    border-radius: 50%;
 }
 #Sponsors h3{
     font-size: 35px;
@@ -73,10 +74,11 @@ margin-top: 5%;
     margin-bottom: 4%;
 }
 #Sponsors #partners img{
-    height: 40px;
-    width: auto;
+    width:100px;
+    height: 80px;
     display: block;
     filter:hue-rotate(0.5);
+    border-radius: 10%;
 }
 #Sponsors button{
     font-size: 17px;
@@ -88,8 +90,9 @@ margin-top: 5%;
         width: 150px;
     }
     #Sponsors #partners img{
-        height: 30px;
-        width: auto;
+        width:60px;
+        height: 60px;
+        border-radius: 10%;
     }
     #Sponsors h1{
         font-size: 30px;

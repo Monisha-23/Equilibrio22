@@ -29,34 +29,6 @@
 		background: white;
 		border-radius: 5px;
 	} */
- #events .item {
-    margin-top: 10px;
-    position: relative;
-  }
-  
- #events a {
-    width: 100%;
-    padding:2% 2% 2% 0%;
-    border-radius: 3px;
-    color: rgb(174, 0, 255);
-    font-weight: bold;
-    transition: background 0.5s ease;
-  }
-  
-  #events a:hover{
-    text-decoration: none;
-    font-weight: bold;
-  }
-
-  #events i {
-    color: rgb(174, 0, 255);
-    margin-left: 20px;
-  }
-  
-  .arrow1 {
-    animation: slide1 1s ease-in-out infinite;
-    margin-left: 9px;
-  }
   #events  .container .card .imgBx::before{
     content: '';
     position: absolute;
@@ -173,26 +145,14 @@
       margin-bottom: 5px;
       font-style: 24px;
     }
-
-    @keyframes slide1 {
-      0%,
-      100% {
-        transform: translate(0, 0);
-      }
-    
-      50% {
-        transform: translate(10px, 0);
-      }
-    }
-    
-    /* #events .container .card .content a{
+    #events .container .card .content a{
       display: inline-block;
       margin-top: 10px;
       padding: 5px 10px;
       background: #333;
       text-decoration: none;
       color: #fff;
-    } */
+    }
     #events #event-2,#event-3{
       display: none;
     }
@@ -210,9 +170,6 @@
 		#events .container .card .content p{
 			font-size: 12px;
 		}
-    #events a{
-      font-weight: bold;
-    }
     #events .container .card .imgBx:before{
       font-size: 75px;
       /* :25%top; */
@@ -246,21 +203,20 @@
         display: block;
       }
 	}
-    @media (max-width: 768px) and (min-width: 575px){
+    @media (max-width: 768px){
 		#events .container .card .content h3{
 			margin-bottom: 0px;
-			font-size: 13px;
+			font-style: 12px;
 		  }
       #events .container .card .imgBx:before{
-        font-size: 20px;
+        font-size: 45px;
         /* top:25%; */
       }
-      #events .container .content p{
-        margin-top: 0px;
-        font-size: 10px;
-      }
+		#events .container .card .content p{
+			font-size: 7px;
+		}
 		#events .container .card .content a{
-			font-size: 10px;
+			font-size: 7px;
 			margin-top: 0px;
 		}
     #events #event-1,#event-2,#event-3{
@@ -273,12 +229,11 @@
       font-size: 45px;
       bottom: 5%;
     }
-    
-    #events .container .content p{
-      margin-top: 8px;
-      font-style: 7px;
+    #events  .container .card .imgBx{
+      border-radius: 0px;
+
     }
-    
+  
 		
 		#events .container .card{
 			width: auto;
